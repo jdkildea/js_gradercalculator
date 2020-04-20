@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jeff Kildea">
+    <meta name="description" content="A Simple JS Grade Calculator">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Grade Calculator</title>
+    <script type="text/javascript">
+    
+    //define variables 
+    var testgrade;
+    var othergrades;
+    
+    //prompt user
+    testgrade = prompt("What did you score on the test?");
+    othergrades = prompt("What is your grade so far in the class?");
+
+    //calculate
+    var finalgrade = (testgrade*.25) + (othergrades*.75);
+
+    //output
+    document.write("<p>You earned " + testgrade + "% on your test and " + othergrades + "% so far in the class.<br>That means your final grade in the class is " + finalgrade + "%.</p>");
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html> 
